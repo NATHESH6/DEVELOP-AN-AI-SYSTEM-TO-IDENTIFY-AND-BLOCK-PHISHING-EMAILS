@@ -1,0 +1,82 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Email Detector</title>
+    <style>
+        body {
+           margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ece2e2;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        .form {
+            text-align: center;
+            padding: 2rem;
+            width: 400px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 6px #0ff, 0 0 15px #0ff, 0 0 5px #00f;
+            
+        }
+        h2{
+            color: #0ff;
+           /* text-shadow: 0 0 10px #0ff, 0 0 20px #00f;*/
+            margin-bottom: 1rem;
+        }
+           
+            h1{color: #ff0000;
+            font-size: 3rem;
+            /*text-shadow: 0 0 10px #d2c5c5, 0 0 20px #ece2e2, 0 0 30px #dbd3d0, 0 0 40px #ff4500;
+            animation: glow 1s infinite alternate;*/
+
+
+            /* color: #0ff;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+            margin-bottom: 1rem;*/   
+        }
+        .form button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #000;
+            background: #0ff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+            text-shadow: 0 0 5px #fff;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 5px #0ff, 0 0 15px #00f;
+        }
+        .form button[type="submit"]:hover {
+            
+            color: #fff;
+            background: #00f;
+            box-shadow: 0 0 5px #0ff, 0 0 5px #00f;
+        }
+    </style>
+   
+    
+</head>
+<body  style="font-family: Arial; text-align: center; margin-top: 50px;">
+    <div class="form">
+    <h1>Phishing Email Detector🔍</h1>
+    <form method="POST">
+        <textarea name="email_text" rows="10" cols="50" placeholder="Paste your email text here..." ></textarea><br><br>
+        <button type="submit">Scan Email</button>
+      <h2 style="color:rgb(16, 190, 234);"> {{ result }} </h2>
+
+
+    </form>
+    
+</div>
+</body>
+</html>
