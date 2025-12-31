@@ -15,6 +15,7 @@ This project implements an intelligent AI-powered system to detect and block phi
 - Feature Extraction     : Comprehensive feature engineering including lexical, URL-based, header-based, and content-based features
 
 📊 Performance Metrics
+
 |----------------------------------------------------------|
 | Algorithm     | Accuracy | Precision | Recall | F1-Score |
 |---------------|----------|-----------|--------|----------|
@@ -43,9 +44,10 @@ Modules:
 - Web Framework: Flask
 - Frontend: HTML, CSS, JavaScript
 - Data Processing: TF-IDF Vectorization, NLP techniques
-
-📁 Project Structure
+---
 ```
+📁 Project Structure
+
 phishing-detection-system/
 ├── app.py              # Flask application
 ├── train_model.py      # Model training script
@@ -57,7 +59,7 @@ phishing-detection-system/
 ├── datasets/           # Training datasets
 └── requirements.txt    # Python dependencies
 ```
-
+---
 🚀 Installation & Setup
 
 Prerequisites
@@ -194,6 +196,7 @@ This README file provides:
 7. References and acknowledgments
 
 The file is structured to be informative for both technical users (developers, researchers) and non-technical stakeholders (instructors, project evaluators).
+
 
 
 
