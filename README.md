@@ -44,7 +44,7 @@ Modules:
 - Web Framework: Flask
 - Frontend: HTML, CSS, JavaScript
 - Data Processing: TF-IDF Vectorization, NLP techniques
----
+
 ```
 📁 Project Structure
 
@@ -59,7 +59,7 @@ phishing-detection-system/
 ├── datasets/           # Training datasets
 └── requirements.txt    # Python dependencies
 ```
----
+
 🚀 Installation & Setup
 
 Prerequisites
@@ -196,6 +196,7 @@ This README file provides:
 7. References and acknowledgments
 
 The file is structured to be informative for both technical users (developers, researchers) and non-technical stakeholders (instructors, project evaluators).
+
 
 
 
