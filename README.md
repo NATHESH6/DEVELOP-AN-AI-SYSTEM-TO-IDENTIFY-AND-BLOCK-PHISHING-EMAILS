@@ -15,14 +15,16 @@ This project implements an intelligent AI-powered system to detect and block phi
 - Feature Extraction     : Comprehensive feature engineering including lexical, URL-based, header-based, and content-based features
 
 📊 Performance Metrics
+|----------------------------------------------------------|
 | Algorithm     | Accuracy | Precision | Recall | F1-Score |
 |---------------|----------|-----------|--------|----------|
-| XGBoost       |   96.1%  |   95.3%   | 96.9%  | 96.1%    |
-| Random Forest |   95.2%  |   94.6%   | 95.8%  | 95.2%    |
-| SVM           |   93.0%  |   91.5%   | 93.8%  | 92.6%    |
+| XGBoost       | 96.1%    | 95.3%     | 96.9%  | 96.1%    |
+| Random Forest | 95.2%    | 94.6%     | 95.8%  | 95.2%    |
+| SVM           | 93.0%    | 91.5%     | 93.8%  | 92.6%    |
 | Logistic      |          |           |        |          |
-| Regression    |   91.1%  |   89.7%   | 92.0%  | 90.8%    |
-| Naive Bayes   |   89.5%  |   87.2%   | 91.4%  | 89.2%    |
+| Regression    | 91.1%    | 89.7%     | 92.0%  | 90.8%    |
+| Naive Bayes   | 89.5%    | 87.2%     | 91.4%  | 89.2%    |
+|----------------------------------------------------------|
 
 🏗️ System Architecture
 
@@ -44,7 +46,6 @@ Modules:
 
 📁 Project Structure
 ```
-
 phishing-detection-system/
 ├── app.py              # Flask application
 ├── train_model.py      # Model training script
@@ -55,7 +56,6 @@ phishing-detection-system/
 ├── static/             # CSS and static files
 ├── datasets/           # Training datasets
 └── requirements.txt    # Python dependencies
-
 ```
 
 🚀 Installation & Setup
@@ -194,5 +194,6 @@ This README file provides:
 7. References and acknowledgments
 
 The file is structured to be informative for both technical users (developers, researchers) and non-technical stakeholders (instructors, project evaluators).
+
 
 
