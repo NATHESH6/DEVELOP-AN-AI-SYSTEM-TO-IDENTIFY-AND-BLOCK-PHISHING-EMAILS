@@ -45,9 +45,9 @@ Modules:
 - Frontend: HTML, CSS, JavaScript
 - Data Processing: TF-IDF Vectorization, NLP techniques
 
-```
-📁 Project Structure
 
+📁 Project Structure
+```
 phishing-detection-system/
 ├── app.py              # Flask application
 ├── train_model.py      # Model training script
@@ -196,6 +196,7 @@ This README file provides:
 7. References and acknowledgments
 
 The file is structured to be informative for both technical users (developers, researchers) and non-technical stakeholders (instructors, project evaluators).
+
 
 
 
